@@ -8,8 +8,8 @@ a simple and clean ui library for roblox (luau). features a cool animations noti
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/hleb4321/wushaslibrary/refs/heads/main/library.lua"))()
 
 local win = lib:window({
-    title = "wusha's hub",
-    author = "by wusha",
+    title = "cool hub",
+    author = "dih",
     width = 590,
     height = 440,
     togglekey = Enum.KeyCode.RightShift,

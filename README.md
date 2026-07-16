@@ -79,3 +79,6 @@ sec:keyguide("binds", {
 - `win:showmodal()` - open unload window
 - `lib:unload()` - unload library
   
+### credits
+
+made by WushaTheSecond

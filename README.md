@@ -60,7 +60,7 @@ sec:keyguide("binds", {
 })
 ```
 
-### методы
+### methods
 
 - `lib:window(cfg)` - create main window
 - `win:tab(id, label)` - add tab

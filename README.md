@@ -8,8 +8,8 @@ a simple and clean ui library for roblox (luau). features a cool animations noti
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/hleb4321/wushaslibrary/refs/heads/main/library.lua"))()
 
 local win = lib:window({
-    title = "cool hub",
-    author = "dih",
+    title = "wusha's hub",
+    author = "by wusha",
     width = 590,
     height = 440,
     togglekey = Enum.KeyCode.RightShift,
@@ -36,18 +36,6 @@ sec:slider("speed", 16, 150, 16, function(val)
     print("slider val:", val)
 end)
 
-sec:selector("font", "changes ui font", "gotham", function()
-    return lib:cyclefont(-1)
-end, function()
-    return lib:cyclefont(1)
-end)
-
-sec:selector("accent", "changes color theme", "violet", function()
-    return lib:cycleaccent(-1)
-end, function()
-    return lib:cycleaccent(1)
-end)
-
 local drop = sec:dropdown("items", {
     list = {"item 1", "item 2", "item 3"},
     default = "item 1",
@@ -70,10 +58,6 @@ sec:keyguide("binds", {
     {"right shift", "toggle window"},
     {"e", "action bind"},
 })
-
-sec:button("unload gui", "removes ui from screen", function()
-    win:showmodal()
-end)
 ```
 
 ### методы
